@@ -1,0 +1,11 @@
+{
+  "id": "movies",
+  "title": "Go to the movies",
+  "description": "A movie outing with a grown-up.",
+  "stars": 50,
+  "min_age": 5,
+  "emoji": "🎬",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "You pick the film rating and the day."
+}

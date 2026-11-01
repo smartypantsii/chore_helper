@@ -1,0 +1,11 @@
+{
+  "id": "computer_time",
+  "title": "Computer time",
+  "description": "30 minutes of computer or tablet time.",
+  "stars": 10,
+  "min_age": 4,
+  "emoji": "💻",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "You pick the window. Timer starts when you say go."
+}

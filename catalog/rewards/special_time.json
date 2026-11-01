@@ -1,0 +1,11 @@
+{
+  "id": "special_time",
+  "title": "Special time with a parent",
+  "description": "One-on-one time with a parent: a game, a walk, or a project you pick together.",
+  "stars": 20,
+  "min_age": 4,
+  "emoji": "🧡",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "Schedule it. 20–30 minutes counts."
+}

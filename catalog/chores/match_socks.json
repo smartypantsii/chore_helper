@@ -1,0 +1,34 @@
+{
+  "id": "match_socks",
+  "title": "Match the socks",
+  "category": "laundry",
+  "kind": "extra",
+  "min_age": 7,
+  "minutes": 10,
+  "stars": 6,
+  "grown_up_required": false,
+  "materials": [
+    "clean socks from the laundry"
+  ],
+  "cover_image": "media/images/match_socks.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Dump clean socks onto a table or bed.",
+      "tip": "Keep them on a towel so they stay clean."
+    },
+    {
+      "text": "Find two that match in color and size.",
+      "tip": "Hold them next to each other in the light."
+    },
+    {
+      "text": "Fold the pair together and make a stack.",
+      "tip": "Lonely socks go in a 'missing' pile for a grown-up."
+    }
+  ],
+  "done_when": [
+    "Matched pairs are in a stack",
+    "Unmatched socks are in one small pile"
+  ],
+  "parent_notes": "Quiet extra chore. Fine motor practice. Do not scold leftover singles."
+}

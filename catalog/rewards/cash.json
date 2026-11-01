@@ -1,0 +1,11 @@
+{
+  "id": "cash",
+  "title": "Cash ($5)",
+  "description": "Five dollars in cash from a grown-up.",
+  "stars": 25,
+  "min_age": 5,
+  "emoji": "💵",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "Pay when you approve. Change the JSON stars/title if you want a different amount."
+}

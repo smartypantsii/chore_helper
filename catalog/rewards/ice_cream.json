@@ -1,0 +1,11 @@
+{
+  "id": "ice_cream",
+  "title": "Ice cream",
+  "description": "A scoop or a cone, when a grown-up says it is a good time.",
+  "stars": 15,
+  "min_age": 4,
+  "emoji": "🍦",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "Allergies and bedtime still win."
+}

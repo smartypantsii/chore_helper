@@ -1,0 +1,34 @@
+{
+  "id": "toys_in_bin",
+  "title": "Put toys in the bin",
+  "category": "bedroom",
+  "kind": "daily",
+  "min_age": 4,
+  "minutes": 5,
+  "stars": 3,
+  "grown_up_required": false,
+  "materials": [
+    "toy bin or basket"
+  ],
+  "cover_image": "media/images/toys_in_bin.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Find the toy bin.",
+      "tip": "Put the bin on the floor where you can reach it."
+    },
+    {
+      "text": "Pick up toys one at a time.",
+      "tip": "Look under the bed and around the pillows too."
+    },
+    {
+      "text": "Drop each toy in the bin.",
+      "tip": "Soft toys and blocks can share the same bin."
+    }
+  ],
+  "done_when": [
+    "Floor is clear of toys",
+    "Toy bin is in its usual spot"
+  ],
+  "parent_notes": "Good first daily chore. Stay nearby for ages 4\u20136."
+}

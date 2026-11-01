@@ -1,0 +1,11 @@
+{
+  "id": "rifle_shooting",
+  "title": "Rifle shooting",
+  "description": "A supervised rifle range or hunting-prep session with a grown-up.",
+  "stars": 80,
+  "min_age": 10,
+  "emoji": "🎯",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "Adult present the whole time. Safety rules are not optional. Deny if it is not a safe day."
+}

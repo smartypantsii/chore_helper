@@ -1,0 +1,37 @@
+{
+  "id": "make_bed",
+  "title": "Make your bed",
+  "category": "bedroom",
+  "kind": "daily",
+  "min_age": 7,
+  "minutes": 5,
+  "stars": 5,
+  "grown_up_required": false,
+  "materials": [
+    "sheet",
+    "blanket or duvet",
+    "pillow"
+  ],
+  "cover_image": "media/images/make_bed.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Pull the bottom sheet smooth.",
+      "tip": "Start at the pillows and walk to the foot of the bed."
+    },
+    {
+      "text": "Pull the blanket up to the pillows.",
+      "tip": "Tug both sides so it hangs evenly."
+    },
+    {
+      "text": "Put the pillow at the head of the bed.",
+      "tip": "Fluff it once with both hands."
+    }
+  ],
+  "done_when": [
+    "Sheet is smooth",
+    "Pillow is at the head",
+    "Floor around the bed is clear"
+  ],
+  "parent_notes": "A 'good enough' made bed counts. Do not redo it in front of the child."
+}

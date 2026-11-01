@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "media_style": "first_person_hands",
+  "rewards": [
+    "computer_time",
+    "cash",
+    "tv_control",
+    "ice_cream",
+    "special_time",
+    "movies",
+    "rifle_shooting",
+    "beach_day",
+    "zoo_day"
+  ],
+  "chores": [
+    "toys_in_bin",
+    "clothes_in_hamper",
+    "wipe_low_table",
+    "make_bed",
+    "set_table",
+    "empty_small_trash",
+    "fill_pet_water",
+    "match_socks",
+    "wipe_bathroom_sink",
+    "load_dishwasher",
+    "vacuum_living_room",
+    "sweep_porch"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wipe_bathroom_sink",
+  "title": "Wipe the bathroom sink",
+  "category": "bathroom",
+  "kind": "extra",
+  "min_age": 10,
+  "minutes": 8,
+  "stars": 8,
+  "grown_up_required": true,
+  "materials": [
+    "damp cloth",
+    "kid-safe cleaner if a grown-up says so"
+  ],
+  "cover_image": "media/images/wipe_bathroom_sink.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Ask a grown-up which cleaner to use.",
+      "tip": "Water and a cloth is enough if they say so."
+    },
+    {
+      "text": "Move soap and toothbrush cups to the side.",
+      "tip": "Put them on a towel so they do not roll."
+    },
+    {
+      "text": "Wipe the sink, faucet, and handles.",
+      "tip": "Finish by wiping the counter around the sink."
+    },
+    {
+      "text": "Put everything back.",
+      "tip": "Toothbrushes stand up, soap by the faucet."
+    }
+  ],
+  "done_when": [
+    "Sink looks clean and not soapy",
+    "Faucet is shiny-ish and dry",
+    "Items are back in place"
+  ],
+  "parent_notes": "grown_up_required: no bleach, no toilet chemicals, no mixing products. Grown-up hands the cloth."
+}

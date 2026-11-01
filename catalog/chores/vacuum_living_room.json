@@ -1,0 +1,39 @@
+{
+  "id": "vacuum_living_room",
+  "title": "Vacuum the living room",
+  "category": "living",
+  "kind": "extra",
+  "min_age": 10,
+  "minutes": 15,
+  "stars": 10,
+  "grown_up_required": true,
+  "materials": [
+    "vacuum"
+  ],
+  "cover_image": "media/images/vacuum_living_room.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Pick up toys, papers, and charging cords.",
+      "tip": "Vacuum eats small things. Look first."
+    },
+    {
+      "text": "Ask a grown-up to show the on switch and the cord.",
+      "tip": "Keep the cord behind you."
+    },
+    {
+      "text": "Vacuum in slow overlapping rows.",
+      "tip": "Start at the far corner and walk toward the door."
+    },
+    {
+      "text": "Turn it off, wrap the cord, put it away.",
+      "tip": "Check corners and under the coffee table."
+    }
+  ],
+  "done_when": [
+    "Living room floor looks even",
+    "Vacuum is put away",
+    "Cords and toys are not left in a heap"
+  ],
+  "parent_notes": "grown_up_required for power and stairs. Stick vacuum is easier than an upright for some kids."
+}

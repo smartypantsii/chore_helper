@@ -1,0 +1,34 @@
+{
+  "id": "clothes_in_hamper",
+  "title": "Clothes in the hamper",
+  "category": "laundry",
+  "kind": "daily",
+  "min_age": 4,
+  "minutes": 3,
+  "stars": 3,
+  "grown_up_required": false,
+  "materials": [
+    "laundry hamper"
+  ],
+  "cover_image": "media/images/clothes_in_hamper.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Find dirty clothes on the floor or bed.",
+      "tip": "Socks hide under the bed."
+    },
+    {
+      "text": "Carry them to the hamper.",
+      "tip": "Make a small pile in your arms so nothing drops."
+    },
+    {
+      "text": "Put every piece in the hamper.",
+      "tip": "Clean clothes that fell stay on the bed or go back in a drawer."
+    }
+  ],
+  "done_when": [
+    "No dirty clothes on the floor",
+    "Hamper is not overflowing onto the floor"
+  ],
+  "parent_notes": "Teach the difference between dirty laundry and clean clothes that just fell."
+}

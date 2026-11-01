@@ -1,0 +1,40 @@
+{
+  "id": "sweep_porch",
+  "title": "Sweep the porch",
+  "category": "outdoor",
+  "kind": "extra",
+  "min_age": 10,
+  "minutes": 10,
+  "stars": 8,
+  "grown_up_required": false,
+  "materials": [
+    "broom",
+    "dustpan"
+  ],
+  "cover_image": "media/images/sweep_porch.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Move shoes and toys to one side.",
+      "tip": "Sweep is easier with a clear path."
+    },
+    {
+      "text": "Sweep dirt into a pile.",
+      "tip": "Short strokes toward the pile. Do not fling dust at the door."
+    },
+    {
+      "text": "Scoop with the dustpan into the outdoor trash.",
+      "tip": "Hold the dustpan flat on the ground."
+    },
+    {
+      "text": "Put shoes back neatly and return the broom.",
+      "tip": "Line shoes in a row by the door."
+    }
+  ],
+  "done_when": [
+    "Porch floor looks clear",
+    "Dirt is in the trash, not in the grass by the door",
+    "Broom is put away"
+  ],
+  "parent_notes": "Daylight only. No ladders, no wet leaves ice, no power blower in v1."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tv_control",
+  "title": "Exclusive TV control",
+  "description": "You pick what is on the TV for one show or one evening.",
+  "stars": 20,
+  "min_age": 5,
+  "emoji": "📺",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "House rules still apply (no shows a parent has banned)."
+}

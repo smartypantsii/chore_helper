@@ -1,0 +1,35 @@
+{
+  "id": "empty_small_trash",
+  "title": "Empty a small trash can",
+  "category": "living",
+  "kind": "daily",
+  "min_age": 7,
+  "minutes": 5,
+  "stars": 5,
+  "grown_up_required": false,
+  "materials": [
+    "small trash can",
+    "bag if it uses one"
+  ],
+  "cover_image": "media/images/empty_small_trash.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Carry the small can or pull out the bag.",
+      "tip": "Hold the bag at the top so nothing spills."
+    },
+    {
+      "text": "Empty it into the big kitchen trash.",
+      "tip": "If the bag is full, tie it first."
+    },
+    {
+      "text": "Put a new bag in and return the can.",
+      "tip": "Push the bag down into the corners."
+    }
+  ],
+  "done_when": [
+    "Small can is empty with a bag in it",
+    "Can is back in its spot"
+  ],
+  "parent_notes": "Not for kitchen grease, bathroom, or pet waste in v1. Kid-sized cans only."
+}

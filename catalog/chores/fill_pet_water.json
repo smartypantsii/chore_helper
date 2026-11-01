@@ -1,0 +1,35 @@
+{
+  "id": "fill_pet_water",
+  "title": "Fill the pet water bowl",
+  "category": "pets",
+  "kind": "extra",
+  "min_age": 7,
+  "minutes": 3,
+  "stars": 4,
+  "grown_up_required": false,
+  "materials": [
+    "pet water bowl",
+    "sink"
+  ],
+  "cover_image": "media/images/fill_pet_water.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Pick up the water bowl.",
+      "tip": "Dump old water in the sink if it looks dusty."
+    },
+    {
+      "text": "Rinse the bowl.",
+      "tip": "A quick swirl is enough unless it is slimy \u2014 then ask a grown-up."
+    },
+    {
+      "text": "Fill with fresh water and set it down in the usual spot.",
+      "tip": "Do not overfill. Leave a little space at the top."
+    }
+  ],
+  "done_when": [
+    "Bowl has clean water",
+    "Bowl is in its usual place, not dripping a trail"
+  ],
+  "parent_notes": "Food portions stay a grown-up job unless you add a later chore. Watch for heavy ceramic bowls."
+}

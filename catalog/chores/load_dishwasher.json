@@ -1,0 +1,40 @@
+{
+  "id": "load_dishwasher",
+  "title": "Load the dishwasher",
+  "category": "kitchen",
+  "kind": "extra",
+  "min_age": 10,
+  "minutes": 10,
+  "stars": 8,
+  "grown_up_required": true,
+  "materials": [
+    "dishwasher",
+    "plates and cups from the sink"
+  ],
+  "cover_image": "media/images/load_dishwasher.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Scrape food into the trash or compost.",
+      "tip": "No big chunks in the dishwasher."
+    },
+    {
+      "text": "Rinse if your house does that.",
+      "tip": "Ask once; then remember the house rule."
+    },
+    {
+      "text": "Plates in the bottom rack, facing the center.",
+      "tip": "Cups and glasses go on the top rack, upside down."
+    },
+    {
+      "text": "Utensils in the basket, handles down if that is the house rule.",
+      "tip": "Do not put knives in if a grown-up said no."
+    }
+  ],
+  "done_when": [
+    "Sink of dirty dishes is empty (except pots a grown-up keeps out)",
+    "Racks are not jammed so the arm can spin",
+    "Door can close"
+  ],
+  "parent_notes": "grown_up_required for knives, breakables, and starting the machine. Kid loads; grown-up runs it."
+}

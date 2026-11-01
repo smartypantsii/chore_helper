@@ -1,0 +1,34 @@
+{
+  "id": "wipe_low_table",
+  "title": "Wipe a low table",
+  "category": "living",
+  "kind": "daily",
+  "min_age": 4,
+  "minutes": 5,
+  "stars": 4,
+  "grown_up_required": false,
+  "materials": [
+    "damp cloth or sponge"
+  ],
+  "cover_image": "media/images/wipe_low_table.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Get a damp cloth.",
+      "tip": "It should be wet, not dripping."
+    },
+    {
+      "text": "Move crumbs and toys off the table first.",
+      "tip": "Put crumbs in the trash, not on the floor."
+    },
+    {
+      "text": "Wipe in slow straight lines.",
+      "tip": "Start at one side and walk the cloth to the other."
+    }
+  ],
+  "done_when": [
+    "Table feels smooth, not sticky",
+    "Cloth is back where it belongs"
+  ],
+  "parent_notes": "Use water or kid-safe cleaner only. No spray bottles for little helpers."
+}

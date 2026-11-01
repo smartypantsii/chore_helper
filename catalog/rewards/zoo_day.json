@@ -1,0 +1,11 @@
+{
+  "id": "zoo_day",
+  "title": "Zoo day",
+  "description": "A fun day at the zoo.",
+  "stars": 100,
+  "min_age": 4,
+  "emoji": "🦁",
+  "season": null,
+  "grown_up_required": true,
+  "parent_notes": "Pick the date. Tickets and travel are on the parent."
+}

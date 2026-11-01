@@ -1,0 +1,11 @@
+{
+  "id": "beach_day",
+  "title": "Beach day",
+  "description": "A summer beach day with the family.",
+  "stars": 120,
+  "min_age": 4,
+  "emoji": "🏖️",
+  "season": "summer",
+  "grown_up_required": true,
+  "parent_notes": "Meant for warm months. Approve and schedule, or deny until summer."
+}

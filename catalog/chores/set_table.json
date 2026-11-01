@@ -1,0 +1,38 @@
+{
+  "id": "set_table",
+  "title": "Set the table",
+  "category": "kitchen",
+  "kind": "daily",
+  "min_age": 7,
+  "minutes": 8,
+  "stars": 6,
+  "grown_up_required": false,
+  "materials": [
+    "plates",
+    "forks",
+    "spoons",
+    "cups",
+    "napkins"
+  ],
+  "cover_image": "media/images/set_table.jpg",
+  "demo_video": null,
+  "steps": [
+    {
+      "text": "Count how many people are eating.",
+      "tip": "Ask a grown-up if you are not sure."
+    },
+    {
+      "text": "Put a plate at each seat.",
+      "tip": "Place it in the middle, a little back from the edge."
+    },
+    {
+      "text": "Fork on the left, spoon or knife on the right, cup above.",
+      "tip": "Napkin goes under the fork or on the plate."
+    }
+  ],
+  "done_when": [
+    "Every seat has a plate, cup, and utensils",
+    "Nothing is hanging off the edge"
+  ],
+  "parent_notes": "Skip knives for younger kids. Grown-up places glasses of water if they are full."
+}
