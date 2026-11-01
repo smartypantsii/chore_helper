@@ -26,8 +26,9 @@ Repo: `/home/jbarnes/projects/chore_helper/`. `cd` here before git or project co
 | Auth | Child PIN (4–8 digits, pad + OK). Parent username/password. Session cookie. No OAuth |
 | Catalog | JSON under `catalog/` seeds SQLite `managed_chores` / `managed_rewards` once; later edits are in SQLite or parent UI |
 | Media | Starter stills `catalog/media/images/<id>.jpg`. Parent uploads `catalog/media/uploads/` (gitignored) |
-| Run | `.venv/bin/python -m uvicorn server.main:app --host 0.0.0.0 --port 8765` |
+| Run | systemd user unit `chore-helper.service` (linger), port 8765. Dev: `.venv/bin/python -m uvicorn server.main:app --host 0.0.0.0 --port 8765` |
 | Tests | `.venv/bin/pytest -q` (17 tests). Shared SQLite is wiped of children between tests |
+| systemd | Units in `deploy/`. plexserver uses `systemctl --user` + linger. Machine unit: `sudo deploy/install-systemd.sh`. Do not start a second uvicorn on 8765. |
 
 Static assets are cache-busted (`web/*.html` `?v=8`). Parent login is a `<form>`; Enter submits.
 
@@ -47,6 +48,7 @@ chore_helper/
 │   ├── media/images/*.jpg  # starter 16:9 covers
 │   └── media/uploads/      # parent uploads, gitignored
 ├── data/                   # sqlite + session secret, gitignored
+├── deploy/                 # systemd units
 └── tests/
 ```
 

@@ -1,0 +1,17 @@
+[Unit]
+Description=Chore Helper family chore server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jbarnes
+Group=jbarnes
+WorkingDirectory=/home/jbarnes/projects/chore_helper
+ExecStart=/home/jbarnes/projects/chore_helper/.venv/bin/python -m uvicorn server.main:app --host 0.0.0.0 --port 8765
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

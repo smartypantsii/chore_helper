@@ -121,14 +121,29 @@ chore_helper/
 
 ## Run
 
+On **plexserver** the app is a systemd **user** service (`chore-helper.service`) as `jbarnes`, enabled with linger so it starts at boot on port **8765**.
+
+```bash
+systemctl --user status chore-helper.service
+journalctl --user -u chore-helper.service -f
+```
+
+First-time install (already done on this host):
+
 ```bash
 cd /home/jbarnes/projects/chore_helper
 python3 -m virtualenv .venv   # this machine has no python3-venv package
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m uvicorn server.main:app --host 0.0.0.0 --port 8765
+mkdir -p ~/.config/systemd/user
+cp deploy/chore-helper.user.service ~/.config/systemd/user/chore-helper.service
+systemctl --user daemon-reload
+loginctl enable-linger "$USER"
+systemctl --user enable --now chore-helper.service
 ```
 
-Open `http://SERVER:8765/` on the kids PC and `http://SERVER:8765/parent` for you.
+To run it as a machine service instead (needs sudo): `deploy/install-systemd.sh`.
+
+Open `http://192.168.38.50:8765/` on the kids PC and `http://192.168.38.50:8765/parent` for you.
 
 Default parent login: **parent** / **change-me**. Set `CHORE_HELPER_PARENT_PASSWORD` before the first start to pick your own. Add kids on the **Kids** tab. **Assign** chooses which chores and Stars each child sees. **Chores** adds jobs and uploads pictures or video.
 
